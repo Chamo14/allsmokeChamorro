@@ -1,0 +1,40 @@
+/*Rotacion del logo de la botonera*/
+body {
+    nav {
+        img:hover {
+            transform: rotate(360deg);
+            transition: transform 1s;
+        }
+    }
+}
+
+div {
+    p {
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+nav {
+    ul {
+        li {
+            a {
+                text-decoration: none;
+                font-size: 3rem;
+                text-transform: uppercase;
+                font-weight: bold;
+                letter-spacing: 1px;
+            }
+
+        }
+    }
+
+}
+
+/*Clases*/
+
+/*Color de fondo del body*/
+.bodycolor__body--color {
+    background-color: $aSmkBodyColor;
+}

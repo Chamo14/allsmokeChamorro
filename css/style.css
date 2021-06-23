@@ -1,0 +1,102 @@
+/*Se cambia de color al poner el mouse sobre el link de la botonera*/
+
+/*
+header{
+	width: : 100%;
+	background-color: rgba(104,29,38,1);
+	height: 200px;
+	border-bottom: 2px solid black;
+}
+*/
+
+/*Formulario modificado colores y fuentes*/
+.formulario div {
+    padding-top: 10px;
+    margin: auto;
+
+}
+
+.formulario h1 {
+    color: rgb(104, 29, 38);
+    padding-top: 15px;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.formulario fieldset {
+    color: rgb(104, 29, 38);
+    padding-top: 5px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.formulario fieldset legend {
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    background: -webkit-radial-gradient(circle, white, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.formulario div label {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*Se le modifico el font por la importada al select*/
+.formulario select {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+}
+
+/*Se le añade bordes circulares al area de texto*/
+.formulario div textarea {
+    width: 100%;
+    text-align: justify;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 1.5rem;
+}
+
+/*Se le añade bordes circulares a los inputs*/
+.formulario input {
+    text-align: justify;
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+    font-size: 1.5rem;
+    border-spacing: 2px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/*Boton del formulario*/
+.buttonForm {
+    text-align: center;
+}
+
+.formulario_input--submit {
+    font-family: 'Bebas Neue', cursive;
+    text-align: justify;
+    size: 100%;
+    font-size: 5rem;
+    margin-right: 10px;
+}
+
+.formulario_input--reset {
+    font-family: 'Bebas Neue', cursive;
+    text-align: justify;
+    size: 100%;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+
+
+

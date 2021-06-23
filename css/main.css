@@ -1,0 +1,246 @@
+@charset "UTF-8";
+/*Variables*/
+/*Colores*/
+/*rgb(104,29,38)*/
+/*rgb(172,156,158)*/
+/*rgb(229, 225, 209)*/
+/*Black*/
+/*Tamaños*/
+/*Tamaños de fuentes*/
+/*Imports*/
+/*Reseteo de CSS*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+/*Rotacion del logo de la botonera*/
+body nav img:hover {
+  transform: rotate(360deg);
+  transition: transform 1s; }
+
+div p a {
+  text-decoration: none; }
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px; }
+
+/*Clases*/
+/*Color de fondo del body*/
+.bodycolor__body--color {
+  background-color: #E5E1D1; }
+
+.bodycolor__main--color {
+  background-color: #E5E1D1; }
+
+.bodycolor__div--color {
+  background-color: #000000; }
+
+.wCard75 {
+  width: 100% -25%;
+  margin: auto;
+  padding-left: 20px; }
+
+/*Header con video*/
+.headerVideo {
+  position: relative;
+  background-color: #AC9C9E;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  padding: auto;
+  overflow: hidden;
+  opacity: 0.3; }
+
+.headerVideo_play {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(39, 37, 37, 0.75), #000000);
+  z-index: 1; }
+
+.bgImage {
+  background-image: url(../gif/fondo.gif);
+  opacity: 0.5; }
+
+.bgImage
+.bgImage__title {
+  font-size: 14rem;
+  color: #AC9C9E; }
+
+/*Clases responsive*/
+@media (max-width: 768px) {
+  .bgImage
+.bgImage__title {
+    font-size: 4rem; } }
+
+/*Caja contenedora para acomodar texto con video o imagen*/
+.containerAll {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px; }
+
+.containerAll__video {
+  width: 400px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  margin-top: 5px; }
+
+.containerAll__img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px; }
+
+.containerAll__p--text {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-top: 10px;
+  text-align: justify;
+  padding-bottom: 10%; }
+
+/*Boton personalizado*/
+.buttom {
+  height: 50px;
+  text-align: center;
+  color: white;
+  padding-bottom: 10px; }
+
+/*Clase caja contenedora de recetas */
+.recipeDes {
+  text-align: center; }
+
+.recipeDes__h3 {
+  font-size: 3rem;
+  padding-bottom: 30px; }
+
+.recipeDes__h3--red {
+  color: #691D26; }
+
+/*Se le añadio position relative para que los parrafos no se choquen entre si*/
+.recipeDes__p {
+  font-size: 2rem;
+  padding-bottom: 20px;
+  position: relative; }
+
+.recipeDes__p--white {
+  color: #AC9C9E; }
+
+.recipeDes__img {
+  width: 30%;
+  height: auto; }
+
+/*H2 del index modificado*/
+.h2personal {
+  padding-left: 180px; }
+
+.h2personal__h2 {
+  font-size: 2.5rem;
+  background: -webkit-radial-gradient(circle, white, #691D26);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic; }
+
+.h2personal_h2--aSmkRed {
+  color: aSmkRed; }
+
+/*Modificacion del footer*/
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%; }
+
+/*Estilo de texto modificado para los parrafos dentro del footer*/
+.footer__p--text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem; }
+
+.bodycolor__footer--color {
+  background-color: #AC9C9E; }
+
+/*Importacion de Fuente e incorporacion de fuente*/
+h1, h2, h3, p, a, form {
+  font-family: 'Bebas Neue', cursive; }
+
+/*Modificacion de la escala de px a rem */
+html {
+  font-size: 62.5%; }
+
+/*Clases*/
+/*Colores de texto*/
+/*#681D26 o rgb(104, 29, 38)* Clase title para los titulos , subtitulos y parrafos de las paginas*/
+.title__h1 {
+  background: -webkit-radial-gradient(circle, #691D26 0%, #AC9C9E 50%, #691D26 60%, #AC9C9E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 20px;
+  font-size: 6rem; }
+
+.title__h1--white {
+  background: -webkit-radial-gradient(circle, white 0%, white 50%, #691D26 60%, white 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 6rem; }
+
+.title__h1--whiteFull {
+  background: -webkit-radial-gradient(circle, white 0%, white 50%, white 60%, white 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 3rem; }
+
+.title__h1--opacity:hover {
+  opacity: 0.8;
+  background-color: #AC9C9E;
+  text-shadow: 3px 3px 3px #AC9C9E;
+  text-decoration: none; }
+
+.title__h1--opacity {
+  opacity: 0.5; }
+
+.title__h2 {
+  font-size: 2rem;
+  background: -webkit-radial-gradient(circle, white, #691D26);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic; }
+
+.title__h3 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: -webkit-radial-gradient(circle, white, #691D26);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.title__p {
+  font-style: italic; }
+
+.title__p--dark {
+  color: #000000; }
+
+/*Degrade color*/
+.gradient {
+  background: #AC9C9E;
+  background: linear-gradient(0deg, #AC9C9E 0%, #000000 60%, #000000 100%); }
+
+.gradient--white {
+  background: #AC9C9E;
+  background: linear-gradient(0deg, #AC9C9E 0%, #AC9C9E 60%, #000000 100%); }
+
+/*Bordes*/
+.bordesRedondos {
+  border-spacing: 2px;
+  border-radius: 10px 10px 10px 10px; }

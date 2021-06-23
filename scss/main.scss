@@ -1,0 +1,126 @@
+/*Variables*/
+/*Colores*/
+$aSmkRed:#691D26;/*rgb(104,29,38)*/
+$aSmkWhite:#AC9C9E;/*rgb(172,156,158)*/
+$aSmkBodyColor:#E5E1D1;/*rgb(229, 225, 209)*/
+$aSmkDark:#000000;/*Black*/
+
+/*Tamaños*/
+$wMax:100%;
+$wMed:50%;
+
+/*Tamaños de fuentes*/
+$f1:1rem;
+$f2:2rem;
+$f3:3rem;
+$f4:4rem;
+$f5:5rem; 
+$f6:6rem;
+
+/*Imports*/
+@import "_reset";
+@import "_header";
+@import "_body";
+@import "_main";
+@import "_footer";
+
+/*Importacion de Fuente e incorporacion de fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+h1,h2,h3,p,a,form{
+	font-family: 'Bebas Neue', cursive;
+}
+/*Modificacion de la escala de px a rem */
+html{
+	font-size: 62.5%/*62,5 =1rem ==10px*/
+}
+
+
+
+
+/*Clases*/
+
+/*Colores de texto*/
+/*#681D26 o rgb(104, 29, 38)* Clase title para los titulos , subtitulos y parrafos de las paginas*/
+.title__h1 {
+   background: -webkit-radial-gradient(circle,$aSmkRed 0%,$aSmkWhite 50%,$aSmkRed 60%,$aSmkWhite 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+     padding-top: 20px;
+     font-size: $f6;
+}
+.title__h1--white{
+   background: -webkit-radial-gradient(circle,white 0%,white 50%,$aSmkRed 60%,white 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+     padding-top: 20px;
+     padding-left: 20px;
+     font-size: $f6;
+
+}
+
+.title__h1--whiteFull{
+   background: -webkit-radial-gradient(circle,white 0%,white 50%,white 60%,white 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+     padding-top: 20px;
+     padding-left: 20px;
+     font-size: $f3;
+
+}
+
+.title__h1--opacity:hover{
+	opacity: 0.8;
+	background-color: $aSmkWhite;
+	text-shadow: 3px 3px 3px $aSmkWhite;
+	text-decoration: none;
+}
+
+.title__h1--opacity{
+	opacity: 0.5;
+}
+.title__h2{
+	font-size: $f2;
+   background: -webkit-radial-gradient(circle,white,$aSmkRed);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+	font-style: italic;
+
+}
+.title__h3{
+	font-size: $f4;
+	font-weight: bold;
+	text-transform: uppercase;
+    background: -webkit-radial-gradient(circle,white,$aSmkRed);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.title__p{
+	font-style: italic;
+}
+
+.title__p--dark{
+	color:$aSmkDark;
+}
+
+/*Degrade color*/
+.gradient{
+background:$aSmkWhite ;
+background: linear-gradient(0deg, $aSmkWhite 0%, $aSmkDark 60%,$aSmkDark 100%);
+}
+
+.gradient--white{
+
+background:$aSmkWhite ;
+background: linear-gradient(0deg, $aSmkWhite 0%, $aSmkWhite 60%,$aSmkDark 100%);
+
+}
+
+/*Bordes*/
+.bordesRedondos{
+
+	border-spacing: 2px;
+	border-radius: 10px 10px 10px 10px;	
+}
+
+

@@ -1,0 +1,16 @@
+/*Modificacion del footer*/
+footer{
+	position: relative;
+	bottom: 0;
+	width: $wMax;
+}
+/*Estilo de texto modificado para los parrafos dentro del footer*/
+.footer__p--text{
+	text-align: center;
+	font-weight: bold;
+	font-size: $f2;
+}
+
+.bodycolor__footer--color{
+	background-color:$aSmkWhite;
+}

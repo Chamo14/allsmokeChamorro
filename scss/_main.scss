@@ -1,0 +1,147 @@
+.bodycolor__main--color {
+    background-color: $aSmkBodyColor;
+}
+
+.bodycolor__div--color {
+    background-color: $aSmkDark;
+}
+
+
+
+.wCard75 {
+    width: $wMax -25%;
+    margin: auto;
+    padding-left: 20px;
+}
+
+/*Header con video*/
+.headerVideo {
+    position: relative;
+    background-color: $aSmkWhite;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+    opacity: 0.3;
+
+}
+
+.headerVideo_play {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(39, 37, 37, 0.75), $aSmkDark);
+    z-index: 1;
+
+}
+
+.bgImage {
+    background-image:url(../gif/fondo.gif);
+    opacity: 0.5;
+
+}
+.bgImage
+.bgImage__title {
+    font-size: $f2 *7;
+    color: $aSmkWhite;
+}
+
+/*Clases responsive*/
+@media (max-width: 768px){
+.bgImage
+.bgImage__title {
+    font-size: $f2 *2;
+}}
+
+/*Caja contenedora para acomodar texto con video o imagen*/
+.containerAll {
+    width: $wMax;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.containerAll__video {
+    width: 400px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.containerAll__img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.containerAll__p--text {
+    font-size: $f3;
+    font-weight: 300;
+    margin-top: 10px;
+    text-align: justify;
+    padding-bottom: 10%;
+}
+
+/*Boton personalizado*/
+.buttom {
+    height: 50px;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
+/*Clase caja contenedora de recetas */
+
+.recipeDes {
+    text-align: center;
+}
+
+.recipeDes__h3 {
+    font-size: $f3;
+    padding-bottom: 30px;
+}
+
+.recipeDes__h3--red {
+    color: $aSmkRed;
+}
+
+/*Se le añadio position relative para que los parrafos no se choquen entre si*/
+
+.recipeDes__p {
+    font-size: $f2;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.recipeDes__p--white {
+    color: $aSmkWhite;
+}
+
+.recipeDes__img {
+    width: $wMax - 70%;
+    height: auto;
+}
+
+
+/*H2 del index modificado*/
+
+.h2personal {
+    padding-left: 180px;
+}
+
+.h2personal__h2 {
+    font-size: 2.5rem;
+    background: -webkit-radial-gradient(circle, white, $aSmkRed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+}
+
+.h2personal_h2--aSmkRed {
+    color: aSmkRed;
+}
